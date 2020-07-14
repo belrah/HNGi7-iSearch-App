@@ -1,0 +1,90 @@
+/*----------------Base Styles ---------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+#testimonials,
+#contact {
+    margin-top: -100px;
+}
+
+#testimonials .line,
+#products .line,
+#services .line,
+#about .line {
+    border: 2px solid #3774DF;
+    background-color: #3774DF;
+    margin: 0 auto 20px 5px;
+    width: 90px;
+}
+
+
+
+/*----------------Nav Bar Styles ---------------------*/
+
+
+/*----------------Header/Hero Styles ---------------------*/
+
+.header button {
+    border-radius: 3px;
+    width: 45%;
+    background: #0146C0;
+}
+
+.background-image {
+    background: url(../images/Ellipse\ 2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 352px;
+}
+/*----------------About Styles ---------------------*/
+
+.headings {
+    position: relative;
+    width: fit-content;
+    margin: 50px auto;
+    font-size: 1.7rem;
+}
+
+.headings::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 40px;
+    right: 40px;
+    height: 3px;
+    background-color: red;
+}
+
+.about-text {
+    line-height: 2;
+    font-size: 1.1rem;
+}
+@media (min-width: 1025px) {
+
+    #collapsibleNavId .nav {
+        transform: translateX(150px);
+        -webkit-transform: translateX(150px);
+        -moz-transform: translateX(150px);
+        -ms-transform: translateX(150px);
+        -o-transform: translateX(150px);
+    }
+
+}
+
+@media (max-width: 500px) {
+    .navbar-brand img {
+        width: 100px;
+    }
+}
