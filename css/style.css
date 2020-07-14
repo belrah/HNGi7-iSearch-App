@@ -41,12 +41,14 @@ body {
     background: #0146C0;
 }
 
-.background-image {
+
+.bg-img {
     background: url(../images/Ellipse\ 2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 352px;
+    width:30%; 
+    height:30%;
 }
 /*----------------About Styles ---------------------*/
 
@@ -70,6 +72,16 @@ body {
 .about-text {
     line-height: 2;
     font-size: 1.1rem;
+}
+#footer ul {
+    list-style-type: none;
+    padding: 0 48px 0 0;
+}
+.foot-footer{
+    border-left: 1px solid white;
+}
+#footer{
+    width: 100%;
 }
 @media (min-width: 1025px) {
 
