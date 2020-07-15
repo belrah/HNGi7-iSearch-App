@@ -31,7 +31,9 @@ body {
 
 
 /*----------------Nav Bar Styles ---------------------*/
-
+.navbar{
+    margin-bottom: 2rem;
+}
 
 /*----------------Header/Hero Styles ---------------------*/
 
@@ -47,8 +49,12 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width:30%; 
-    height:30%;
+    height: 550px;
+}
+.img-fluid2{
+  position: relative;
+    width: 55%;
+    height: 55%;
 }
 /*----------------About Styles ---------------------*/
 
@@ -83,6 +89,19 @@ body {
 #footer{
     width: 100%;
 }
+.ft2 {
+    padding-left: 6rem;
+}
+#email{
+    width: 45%;
+    padding: 8px 0px 8px 8px;
+    margin-left: 1rem;
+}
+#name{
+    width: 45%;
+    padding: 8px 0px 8px 8px;  
+}
+
 @media (min-width: 1025px) {
 
     #collapsibleNavId .nav {
@@ -93,6 +112,17 @@ body {
         -o-transform: translateX(150px);
     }
 
+}
+@media (max-width: 768px) {
+    #email{
+        width: 45% !important;
+        padding: 8px 0px 8px 8px !important;;
+        margin-left: 1rem !important;;
+    }
+    #name{
+        width: 45% !important;;
+        padding: 8px 0px 8px 8px !important;;  
+    }
 }
 
 @media (max-width: 500px) {
